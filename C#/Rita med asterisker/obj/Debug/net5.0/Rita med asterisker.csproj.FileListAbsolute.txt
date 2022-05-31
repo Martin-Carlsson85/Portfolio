@@ -1,0 +1,16 @@
+C:\Users\marti\OneDrive\Dokument\ASP.NET\C#\Portfolio\Rita med asterisker\bin\Debug\net5.0\Rita med asterisker.exe
+C:\Users\marti\OneDrive\Dokument\ASP.NET\C#\Portfolio\Rita med asterisker\bin\Debug\net5.0\Rita med asterisker.deps.json
+C:\Users\marti\OneDrive\Dokument\ASP.NET\C#\Portfolio\Rita med asterisker\bin\Debug\net5.0\Rita med asterisker.runtimeconfig.json
+C:\Users\marti\OneDrive\Dokument\ASP.NET\C#\Portfolio\Rita med asterisker\bin\Debug\net5.0\Rita med asterisker.runtimeconfig.dev.json
+C:\Users\marti\OneDrive\Dokument\ASP.NET\C#\Portfolio\Rita med asterisker\bin\Debug\net5.0\Rita med asterisker.dll
+C:\Users\marti\OneDrive\Dokument\ASP.NET\C#\Portfolio\Rita med asterisker\bin\Debug\net5.0\ref\Rita med asterisker.dll
+C:\Users\marti\OneDrive\Dokument\ASP.NET\C#\Portfolio\Rita med asterisker\bin\Debug\net5.0\Rita med asterisker.pdb
+C:\Users\marti\OneDrive\Dokument\ASP.NET\C#\Portfolio\Rita med asterisker\obj\Debug\net5.0\Rita med asterisker.csproj.AssemblyReference.cache
+C:\Users\marti\OneDrive\Dokument\ASP.NET\C#\Portfolio\Rita med asterisker\obj\Debug\net5.0\Rita med asterisker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\OneDrive\Dokument\ASP.NET\C#\Portfolio\Rita med asterisker\obj\Debug\net5.0\Rita med asterisker.AssemblyInfoInputs.cache
+C:\Users\marti\OneDrive\Dokument\ASP.NET\C#\Portfolio\Rita med asterisker\obj\Debug\net5.0\Rita med asterisker.AssemblyInfo.cs
+C:\Users\marti\OneDrive\Dokument\ASP.NET\C#\Portfolio\Rita med asterisker\obj\Debug\net5.0\Rita med asterisker.csproj.CoreCompileInputs.cache
+C:\Users\marti\OneDrive\Dokument\ASP.NET\C#\Portfolio\Rita med asterisker\obj\Debug\net5.0\Rita med asterisker.dll
+C:\Users\marti\OneDrive\Dokument\ASP.NET\C#\Portfolio\Rita med asterisker\obj\Debug\net5.0\ref\Rita med asterisker.dll
+C:\Users\marti\OneDrive\Dokument\ASP.NET\C#\Portfolio\Rita med asterisker\obj\Debug\net5.0\Rita med asterisker.pdb
+C:\Users\marti\OneDrive\Dokument\ASP.NET\C#\Portfolio\Rita med asterisker\obj\Debug\net5.0\Rita med asterisker.genruntimeconfig.cache
