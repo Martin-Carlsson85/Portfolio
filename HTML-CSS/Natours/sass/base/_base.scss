@@ -7,7 +7,9 @@
 }
 
 html {
-  //Detta definierar vad 1rem är
+  //62.5% definierar att 1 rem = 10px
+  //100% = 16px = 1,6 rem
+  //Detta gör det bara lättare att räkna
   font-size: 62.5%;
 
   box-sizing: border-box;
