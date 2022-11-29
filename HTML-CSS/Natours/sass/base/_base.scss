@@ -29,6 +29,13 @@ html {
   @include respond(big-desktop) {
     font-size: 75%; //1 rem = 12, 12/16 = 75%
   }
+}
 
+body {
+  padding: 3rem; /*Ärvs inte, vore inte bra*/
   box-sizing: border-box;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
 }
