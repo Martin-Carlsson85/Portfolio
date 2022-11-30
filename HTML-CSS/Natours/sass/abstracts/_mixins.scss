@@ -32,28 +32,28 @@ $breakpoint argument choiches:
 
 @mixin respond($breakpoint) {
   @if $breakpoint == phone {
-    @media (max-width: 37.5em) {
+    @media only screen and (max-width: 37.5em) {
       //upp till eller lika med 600px
       //600/16 = 37.5
       @content;
     }
   }
   @if $breakpoint == tab-port {
-    @media (max-width: 56.25em) {
+    @media only screen and (max-width: 56.25em) {
       //upp till eller lika med 900px
       //900/16 = 56.25
       @content;
     }
   }
   @if $breakpoint == tab-land {
-    @media (max-width: 75em) {
+    @media only screen and (max-width: 75em) {
       //upp till eller lika med 1200px
       //1200/16 = 75
       @content;
     }
   }
   @if $breakpoint == big-desktop {
-    @media (min-width: 112.5em) {
+    @media only screen and (min-width: 112.5em) {
       //när skärmen är större än 1800px
       //1800/16 = 112.5
       @content;
