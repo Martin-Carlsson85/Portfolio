@@ -258,6 +258,7 @@
     color: var(--color-grey-dark-1);
   }
 
+  //När man klickar på den
   &:focus {
     outline: none;
     animation: pulsate 1s infinite;
@@ -278,5 +279,70 @@
   100% {
     transform: scale(1);
     box-shadow: none;
+  }
+}
+
+/////////////////////////////////////////////////////////////////////
+///PARAGRAPH
+.paragraph:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+/////////////////////////////////////////////////////////////////////
+///LIST
+.list {
+  list-style: none;
+  margin: 3rem 0;
+  padding: 3rem 0;
+  border-top: var(--line);
+  border-bottom: (var(--line));
+
+  display: flex;
+  flex-wrap: wrap;
+  &__item {
+    flex: 0 0 50%;
+    margin-bottom: 0.7rem;
+  }
+
+  .arrow {
+    color: red;
+    font-size: 1.5rem;
+    padding-right: 0.5rem;
+    // transform: scale(0.5, 1);
+  }
+
+  // &__item::before {
+  //   content: "";
+  //   display: inline-block;
+  //   height: 2rem;
+  //   background-image: url(https://www.svgrepo.com/svg/127047/right-thin-chevron);
+  // }
+}
+
+/////////////////////////////////////////////////////////////////////
+///RECOMMEND
+.recommend {
+  font-size: 1.3rem;
+  color: var(--color-grey-dark-3);
+
+  display: flex;
+  align-items: center;
+
+  &__count {
+    margin-right: auto;
+  }
+  &__friends {
+  }
+  &__photo {
+    box-sizing: content-box; //Motsatsen till border-box, för att få bordern all ligga utanpå bilden
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: 3px solid #fff;
+
+    //Alla utom den sista
+    &:not(:last-child) {
+      margin-right: -1.15rem;
+    }
   }
 }
