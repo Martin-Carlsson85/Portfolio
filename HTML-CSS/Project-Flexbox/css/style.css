@@ -369,13 +369,13 @@ body {
   padding: 3.5rem 0;
   text-align: center; }
   .cta__book-now {
-    font-size: 1.2rem;
-    font-weight: 300;
+    font-size: 1.9rem;
+    font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 2.5rem; }
 
 .btn {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 300;
   text-transform: uppercase;
   border-radius: 100px;
@@ -385,20 +385,18 @@ body {
   position: relative;
   overflow: hidden;
   cursor: pointer; }
-  .btn__visible {
+  .btn > * {
     display: inline-block;
-    padding: 2rem 7.5rem;
-    height: 100%;
-    width: 100%; }
-  .btn__invisible {
-    display: inline-block;
-    position: absolute;
-    padding: 2rem 0;
     height: 100%;
     width: 100%;
-    left: 0;
-    top: -100%;
     transition: all 0.2s; }
+  .btn__visible {
+    padding: 2rem 7.5rem; }
+  .btn__invisible {
+    position: absolute;
+    padding: 2rem 0;
+    left: 0;
+    top: -100%; }
   .btn:hover {
     background-image: linear-gradient(to left, var(--color-primary-light), var(--color-primary-dark)); }
   .btn:hover .btn__visible {
