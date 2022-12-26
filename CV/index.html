@@ -16,6 +16,7 @@
     />
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
@@ -47,7 +48,73 @@
         <a href="#" class="prev"></a>
       </nav>
     </div>
+    <div id="about" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img src="img/jag.jpg" alt="userImage" class="aboutImage" />
+          </div>
+
+          <div class="col-md-7">
+            <h4>Mitt namn är Martin Carlsson</h4>
+            <p>
+              Hej! Mitt namn är Martin och jag bor i Kalmar. Jag älskar att
+              programmera och mitt favoritspråk är JavaScript
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills" class="skillsSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>TEKNISK KONPETENS</h2>
+            <p>En presentation av mina kunskpaer i vadera teknik</p>
+          </div>
+
+          <div class="owl-carousel owl-theme">
+            <div class="skill">
+              <span class="chart" data-percent="67">
+                <span class="percent">67</span>
+                <canvas heigth="152" width="152"></canvas>
+              </span>
+              <h4>HTML</h4>
+              <p>Använt i de flesta projekt</p>
+            </div>
+            <div class="skill">
+              <span class="chart" data-percent="67">
+                <span class="percent">67</span>
+                <canvas heigth="152" width="152"></canvas>
+              </span>
+              <h4>CSS</h4>
+              <p>Använt i de flesta projekt</p>
+            </div>
+            <div class="skill">
+              <span class="chart" data-percent="67">
+                <span class="percent">67</span>
+                <canvas heigth="152" width="152"></canvas>
+              </span>
+              <h4>JavaScript</h4>
+              <p>Använt i de flesta projekt</p>
+            </div>
+            <div class="skill">
+              <span class="chart" data-percent="67">
+                <span class="percent">67</span>
+                <canvas heigth="152" width="152"></canvas>
+              </span>
+              <h4>React</h4>
+              <p>Använt i de flesta projekt</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.easypiechart.min.js"></script>
     <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/typed.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
