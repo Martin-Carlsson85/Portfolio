@@ -49,3 +49,22 @@ $(document).ready(function () {
     }
   });
 });
+
+let valueDisplays = document.querySelectorAll(".num");
+let interval = 1000;
+
+valueDisplays.forEach((valueDisplay) => {
+  let startValue = 0;
+  let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+  console.log(endValue);
+  let duration = Math.floor(interval / endValue);
+  console.log(interval);
+  console.log(duration);
+  let counter = setInterval(function () {
+    startValue += 1;
+    valueDisplay.textContent = startValue;
+    if (startValue == endValue) {
+      clearInterval(counter);
+    }
+  }, duration);
+});
