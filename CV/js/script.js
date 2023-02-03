@@ -48,6 +48,25 @@ $(document).ready(function () {
       });
     }
   });
+
+  const nav = $("#navigation");
+  const navTop = nav.offset().top;
+
+  $(window).on("scroll", stickyNavigation);
+
+  function stickyNavigation() {
+    var body = $("body");
+
+    if ($(window).scrollTop() >= navTop) {
+      body.css("padding-top", nav.outerHeight() + "px");
+      body.addClass("fixedNav");
+    } else {
+      body.css("padding-top", 0);
+      body.removeClass("fixedNav");
+    }
+  }
+
+  $("[data-fancybox]").fancybox();
 });
 
 let valueDisplays = document.querySelectorAll(".num");
@@ -56,10 +75,9 @@ let interval = 1000;
 valueDisplays.forEach((valueDisplay) => {
   let startValue = 0;
   let endValue = parseInt(valueDisplay.getAttribute("data-val"));
-  console.log(endValue);
+
   let duration = Math.floor(interval / endValue);
-  console.log(interval);
-  console.log(duration);
+
   let counter = setInterval(function () {
     startValue += 1;
     valueDisplay.textContent = startValue;

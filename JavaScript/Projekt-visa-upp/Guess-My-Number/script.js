@@ -1,7 +1,7 @@
 'use strict';
 
 let secretNumber = Math.trunc(Math.random() * 20) + 1; //Math = objekt, random = metod
-document.querySelector(`.number`).textContent = secretNumber; //Gör hemliga talet synligt när sidan laddas om
+// document.querySelector(`.number`).textContent = secretNumber; //Gör hemliga talet synligt när sidan laddas om
 
 let score = 20;
 let highScore = 0;
